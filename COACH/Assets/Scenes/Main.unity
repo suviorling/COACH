@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.18028352, g: 0.22571376, b: 0.30692244, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -459,7 +459,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 20731356}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -31}
+  m_LocalPosition: {x: 0, y: 0, z: -325}
   m_LocalScale: {x: 58.39638, y: 58.39638, z: 58.39638}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -468,7 +468,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -663.9, y: 26}
+  m_AnchoredPosition: {x: -35, y: -635}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!135 &20731358
@@ -734,7 +734,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 37366766}
   m_LocalRotation: {x: -0, y: -1, z: -0, w: 0}
-  m_LocalPosition: {x: 0, y: 0, z: -235.99976}
+  m_LocalPosition: {x: 0, y: 0, z: -387}
   m_LocalScale: {x: 58.399998, y: 58.399998, z: 58.399998}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -743,7 +743,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -222, y: -516}
+  m_AnchoredPosition: {x: 17, y: -626}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!82 &37366768
@@ -1053,7 +1053,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 93bbe07bfa6934c46840ba7c83fbcb7e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -5.46
+      value: -7.34995
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 93bbe07bfa6934c46840ba7c83fbcb7e, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1061,7 +1061,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 93bbe07bfa6934c46840ba7c83fbcb7e, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -1.4438276
+      value: 1.6370103
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 93bbe07bfa6934c46840ba7c83fbcb7e, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1180,7 +1180,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 46357187}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 408612832}
+        m_TargetAssemblyTypeName: StepSelector, Assembly-CSharp
+        m_MethodName: ChangeStepPanel
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &46357187
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1578,7 +1590,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 102143886}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 408612832}
+        m_TargetAssemblyTypeName: StepSelector, Assembly-CSharp
+        m_MethodName: ToStartPage
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &102143886
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1731,7 +1755,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 112983475}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 408612832}
+        m_TargetAssemblyTypeName: StepSelector, Assembly-CSharp
+        m_MethodName: ChangeToSpecificStepPanel
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &112983475
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1853,7 +1889,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 114493005}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 408612832}
+        m_TargetAssemblyTypeName: StepSelector, Assembly-CSharp
+        m_MethodName: ChangeStepPanel
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &114493005
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2672,7 +2720,7 @@ RectTransform:
   m_Children:
   - {fileID: 1767619429}
   m_Father: {fileID: 1314446342}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
@@ -2722,7 +2770,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 173977224}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 408612832}
+        m_TargetAssemblyTypeName: StepSelector, Assembly-CSharp
+        m_MethodName: ToStartPage
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &173977224
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2874,7 +2934,6 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 677398194}
-  - {fileID: 303520370}
   m_Father: {fileID: 1314446342}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2926,7 +2985,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 222315444}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 408612832}
+        m_TargetAssemblyTypeName: StepSelector, Assembly-CSharp
+        m_MethodName: ChangeStepPanel
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &222315444
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3048,7 +3119,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 223386141}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 408612832}
+        m_TargetAssemblyTypeName: StepSelector, Assembly-CSharp
+        m_MethodName: ChangeToSpecificStepPanel
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &223386141
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3170,7 +3253,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 240960029}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 408612832}
+        m_TargetAssemblyTypeName: StepSelector, Assembly-CSharp
+        m_MethodName: ToStartPage
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &240960029
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4032,7 +4127,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 93bbe07bfa6934c46840ba7c83fbcb7e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -5.4600506
+      value: -7.3500004
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 93bbe07bfa6934c46840ba7c83fbcb7e, type: 3}
       propertyPath: m_LocalPosition.y
@@ -4040,7 +4135,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 93bbe07bfa6934c46840ba7c83fbcb7e, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -1.4438379
+      value: 1.6370001
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 93bbe07bfa6934c46840ba7c83fbcb7e, type: 3}
       propertyPath: m_LocalRotation.w
@@ -4317,16 +4412,16 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 303520369}
   m_LocalRotation: {x: -0, y: -1, z: -0, w: 0}
-  m_LocalPosition: {x: 0, y: 0, z: -235.99976}
-  m_LocalScale: {x: 58.4, y: 58.4, z: 58.4}
+  m_LocalPosition: {x: 0, y: 0, z: -375}
+  m_LocalScale: {x: 58.399998, y: 58.399998, z: 58.399998}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 222315442}
-  m_RootOrder: 1
+  m_Father: {fileID: 1314446342}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -13.000061, y: -318.09998}
+  m_AnchoredPosition: {x: 19, y: -638}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!82 &303520371
@@ -4571,7 +4666,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 312451946}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 408612832}
+        m_TargetAssemblyTypeName: StepSelector, Assembly-CSharp
+        m_MethodName: ChangeStepPanel
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &312451946
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4810,7 +4917,7 @@ RectTransform:
   - {fileID: 1005115632}
   - {fileID: 1953585252}
   m_Father: {fileID: 1314446342}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -5034,6 +5141,8 @@ GameObject:
   - component: {fileID: 408612830}
   - component: {fileID: 408612829}
   - component: {fileID: 408612828}
+  - component: {fileID: 408612832}
+  - component: {fileID: 408612833}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -5141,6 +5250,78 @@ RectTransform:
   m_AnchoredPosition: {x: -0.515, y: 1.434}
   m_SizeDelta: {x: 1040.8994, y: 502.1067}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &408612832
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 408612827}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89fb6f05e05e0b74298399338ad3c519, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stepPanels:
+  - {fileID: 1984779361}
+  - {fileID: 1032901868}
+  - {fileID: 1971516667}
+  - {fileID: 1801909704}
+  - {fileID: 962337649}
+  - {fileID: 1642871015}
+  - {fileID: 2034949376}
+  - {fileID: 1781859072}
+  - {fileID: 2063934005}
+  - {fileID: 1314446341}
+  - {fileID: 649986034}
+  - {fileID: 1500350313}
+  - {fileID: 769005502}
+  - {fileID: 1739929156}
+  - {fileID: 1999557445}
+  - {fileID: 1961768175}
+  - {fileID: 1864226853}
+  - {fileID: 870117027}
+  - {fileID: 483143989}
+  stepButtons:
+  - {fileID: 1273725313}
+  - {fileID: 1294215758}
+  - {fileID: 1469995244}
+  - {fileID: 1577040876}
+  - {fileID: 1200614813}
+  - {fileID: 2044043543}
+  - {fileID: 223386138}
+  - {fileID: 1969663996}
+  - {fileID: 1150104797}
+  - {fileID: 560505584}
+  - {fileID: 732174332}
+  - {fileID: 1357434710}
+  - {fileID: 717441302}
+  - {fileID: 1697603066}
+  - {fileID: 1165504447}
+  - {fileID: 2135532121}
+  - {fileID: 1202694807}
+  - {fileID: 112983472}
+  stepToggles: []
+  pinnedSteps: []
+--- !u!114 &408612833
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 408612827}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7951c64acb0fa62458bf30a60089fe2d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 0
+  m_CheckFor2DOcclusion: 0
+  m_CheckFor3DOcclusion: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RaycastTriggerInteraction: 1
 --- !u!1 &411330808
 GameObject:
   m_ObjectHideFlags: 0
@@ -5646,7 +5827,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 472222651}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 408612832}
+        m_TargetAssemblyTypeName: StepSelector, Assembly-CSharp
+        m_MethodName: ToStartPage
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &472222651
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5703,7 +5896,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &483143990
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5711,8 +5904,8 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 483143989}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -21}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -441}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -5726,7 +5919,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 1580, y: 47}
+  m_AnchoredPosition: {x: -2027, y: 67}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &483143991
@@ -6294,7 +6487,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 529021492}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 408612832}
+        m_TargetAssemblyTypeName: StepSelector, Assembly-CSharp
+        m_MethodName: ChangeStepPanel
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &529021492
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6416,7 +6621,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 560505587}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 408612832}
+        m_TargetAssemblyTypeName: StepSelector, Assembly-CSharp
+        m_MethodName: ChangeToSpecificStepPanel
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &560505587
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6483,8 +6700,8 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 567042901}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -31.000114}
-  m_LocalScale: {x: 58.4, y: 58.4, z: 58.4}
+  m_LocalPosition: {x: 0, y: 0, z: -325.00003}
+  m_LocalScale: {x: 58.39638, y: 58.39638, z: 58.39638}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 962337650}
@@ -6492,7 +6709,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -663.9001, y: 26.000053}
+  m_AnchoredPosition: {x: -34.00006, y: -635}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!82 &567042903
@@ -6737,7 +6954,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 594415780}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 408612832}
+        m_TargetAssemblyTypeName: StepSelector, Assembly-CSharp
+        m_MethodName: ToStartPage
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &594415780
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7205,7 +7434,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 630994615}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 408612832}
+        m_TargetAssemblyTypeName: StepSelector, Assembly-CSharp
+        m_MethodName: ChangeStepPanel
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &630994615
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7462,7 +7703,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 639664439}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 408612832}
+        m_TargetAssemblyTypeName: StepSelector, Assembly-CSharp
+        m_MethodName: ToStartPage
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &639664439
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7654,7 +7907,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &649986035
 RectTransform:
   m_ObjectHideFlags: 0
@@ -7662,8 +7915,8 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 649986034}
-  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: 0, y: 0, z: -3503}
+  m_LocalRotation: {x: -0, y: -1, z: -0, w: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -3503.0002}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -7677,7 +7930,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 950, y: 408}
+  m_AnchoredPosition: {x: 3079.5012, y: 409.00003}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &649986036
@@ -8010,7 +8263,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 676776887}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 408612832}
+        m_TargetAssemblyTypeName: StepSelector, Assembly-CSharp
+        m_MethodName: ToStartPage
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &676776887
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8379,8 +8644,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Step 2:
 
-    Create your 3D model or choose an existing one from Thingiverse
-    etc.'
+    Create your 3D model with computer or choose an existing
+    one from Thingiverse.com etc.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 9bd7411a6f8491d47907e0824a0d6971, type: 2}
   m_sharedMaterial: {fileID: 3218849437651673367, guid: 9bd7411a6f8491d47907e0824a0d6971, type: 2}
@@ -8540,7 +8805,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 698587376}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 408612832}
+        m_TargetAssemblyTypeName: StepSelector, Assembly-CSharp
+        m_MethodName: ChangeStepPanel
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &698587376
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8832,7 +9109,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 717441305}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 408612832}
+        m_TargetAssemblyTypeName: StepSelector, Assembly-CSharp
+        m_MethodName: ChangeToSpecificStepPanel
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &717441305
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9034,7 +9323,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 731575834}
   m_LocalRotation: {x: -0, y: -1, z: -0, w: 0}
-  m_LocalPosition: {x: 0, y: 0, z: -315}
+  m_LocalPosition: {x: 0, y: 0, z: -383}
   m_LocalScale: {x: 58.399998, y: 58.399998, z: 58.399998}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -9043,7 +9332,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -84, y: -492.00003}
+  m_AnchoredPosition: {x: 62, y: -644}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!82 &731575836
@@ -9288,7 +9577,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 732174335}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 408612832}
+        m_TargetAssemblyTypeName: StepSelector, Assembly-CSharp
+        m_MethodName: ChangeToSpecificStepPanel
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &732174335
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9410,7 +9711,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 762764537}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 408612832}
+        m_TargetAssemblyTypeName: StepSelector, Assembly-CSharp
+        m_MethodName: ToStartPage
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &762764537
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9602,7 +9915,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &769005503
 RectTransform:
   m_ObjectHideFlags: 0
@@ -9610,8 +9923,8 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 769005502}
-  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: 0, y: 0, z: -3503}
+  m_LocalRotation: {x: -0, y: -1, z: -0, w: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -3503.0002}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -9625,7 +9938,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 950, y: 408}
+  m_AnchoredPosition: {x: 3079.5022, y: 409.00003}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &769005504
@@ -9998,7 +10311,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 814794879}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 408612832}
+        m_TargetAssemblyTypeName: StepSelector, Assembly-CSharp
+        m_MethodName: ToStartPage
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &814794879
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10065,7 +10390,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 820339555}
   m_LocalRotation: {x: -0, y: -1, z: -0, w: 0}
-  m_LocalPosition: {x: 0, y: 0, z: 120}
+  m_LocalPosition: {x: 0, y: 0, z: 58}
   m_LocalScale: {x: 58.399998, y: 58.399998, z: 58.399998}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -10074,7 +10399,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -475, y: -492.00003}
+  m_AnchoredPosition: {x: -348, y: -1055}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!82 &820339557
@@ -10534,7 +10859,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 840902312}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -191}
   m_LocalScale: {x: 58.399998, y: 58.399998, z: 58.399998}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -10543,7 +10868,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 89, y: -270}
+  m_AnchoredPosition: {x: -205, y: -626}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!82 &840902314
@@ -11194,7 +11519,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &870117028
 RectTransform:
   m_ObjectHideFlags: 0
@@ -11202,8 +11527,8 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 870117027}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -21}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -20.999908}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -11217,7 +11542,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 1580, y: 47}
+  m_AnchoredPosition: {x: 1580.0002, y: 47.000122}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &870117029
@@ -11576,8 +11901,8 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 892011740}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -31.000114}
-  m_LocalScale: {x: 58.4, y: 58.4, z: 58.4}
+  m_LocalPosition: {x: 0, y: 0, z: -325.00003}
+  m_LocalScale: {x: 58.39638, y: 58.39638, z: 58.39638}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1801909705}
@@ -11585,7 +11910,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -663.9001, y: 26.000053}
+  m_AnchoredPosition: {x: -34.50006, y: -635}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!82 &892011742
@@ -12647,7 +12972,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &962337650
 RectTransform:
   m_ObjectHideFlags: 0
@@ -12655,7 +12980,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 962337649}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 26}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -12670,8 +12995,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -5, y: -8}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchoredPosition: {x: -620, y: -8.000061}
+  m_SizeDelta: {x: -2, y: 0.00012207031}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &962337651
 MonoBehaviour:
@@ -13592,7 +13917,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1032901869
 RectTransform:
   m_ObjectHideFlags: 0
@@ -13601,7 +13926,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1032901868}
   m_LocalRotation: {x: -0, y: -1, z: -0, w: 0}
-  m_LocalPosition: {x: 0, y: 0, z: -3503}
+  m_LocalPosition: {x: 0, y: 0, z: -3503.0002}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -13615,8 +13940,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 950, y: 408}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 3079.5, y: 409}
+  m_SizeDelta: {x: -1, y: 2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1032901870
 MonoBehaviour:
@@ -13713,7 +14038,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -176, y: -772}
+  m_AnchoredPosition: {x: -539, y: -979}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!82 &1040040366
@@ -13958,7 +14283,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1045456492}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 408612832}
+        m_TargetAssemblyTypeName: StepSelector, Assembly-CSharp
+        m_MethodName: ToStartPage
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1045456492
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14553,7 +14890,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1095653658}
   m_LocalRotation: {x: -0, y: -1, z: -0, w: 0}
-  m_LocalPosition: {x: 0, y: 0, z: -307}
+  m_LocalPosition: {x: 0, y: 0, z: -145}
   m_LocalScale: {x: 58.399998, y: 58.399998, z: 58.399998}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -14562,7 +14899,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -238, y: -764}
+  m_AnchoredPosition: {x: -5, y: -972}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!82 &1095653660
@@ -15246,7 +15583,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1150104800}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 408612832}
+        m_TargetAssemblyTypeName: StepSelector, Assembly-CSharp
+        m_MethodName: ChangeToSpecificStepPanel
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1150104800
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15368,7 +15717,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1165504450}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 408612832}
+        m_TargetAssemblyTypeName: StepSelector, Assembly-CSharp
+        m_MethodName: ChangeToSpecificStepPanel
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1165504450
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15625,7 +15986,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1180952813}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 408612832}
+        m_TargetAssemblyTypeName: StepSelector, Assembly-CSharp
+        m_MethodName: ToStartPage
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1180952813
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15747,7 +16120,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1200614816}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 408612832}
+        m_TargetAssemblyTypeName: StepSelector, Assembly-CSharp
+        m_MethodName: ChangeToSpecificStepPanel
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1200614816
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15869,7 +16254,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1202694810}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 408612832}
+        m_TargetAssemblyTypeName: StepSelector, Assembly-CSharp
+        m_MethodName: ChangeToSpecificStepPanel
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1202694810
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15936,7 +16333,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1214910930}
   m_LocalRotation: {x: -0, y: -1, z: -0, w: 0}
-  m_LocalPosition: {x: 0, y: 0, z: -236}
+  m_LocalPosition: {x: 0, y: 0, z: -395}
   m_LocalScale: {x: 58.399998, y: 58.399998, z: 58.399998}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -15945,7 +16342,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 373, y: -492}
+  m_AnchoredPosition: {x: 64, y: -632}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!82 &1214910932
@@ -16656,7 +17053,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1254304481}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 408612832}
+        m_TargetAssemblyTypeName: StepSelector, Assembly-CSharp
+        m_MethodName: ChangeStepPanel
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1254304481
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16854,7 +17263,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1257021248}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 408612832}
+        m_TargetAssemblyTypeName: StepSelector, Assembly-CSharp
+        m_MethodName: ChangeStepPanel
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1257021248
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16976,7 +17397,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1273725316}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 408612832}
+        m_TargetAssemblyTypeName: StepSelector, Assembly-CSharp
+        m_MethodName: ChangeStepPanel
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1273725316
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17098,7 +17531,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1273879836}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 408612832}
+        m_TargetAssemblyTypeName: StepSelector, Assembly-CSharp
+        m_MethodName: ChangeStepPanel
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1273879836
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17165,7 +17610,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1278315261}
   m_LocalRotation: {x: -0, y: -1, z: -0, w: 0}
-  m_LocalPosition: {x: 0, y: 0, z: -235.99976}
+  m_LocalPosition: {x: 0, y: 0, z: -375}
   m_LocalScale: {x: 58.399998, y: 58.399998, z: 58.399998}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -17174,7 +17619,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 372.99997, y: -492.00003}
+  m_AnchoredPosition: {x: 87.999756, y: -652.5}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!82 &1278315263
@@ -17484,7 +17929,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 93bbe07bfa6934c46840ba7c83fbcb7e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -5.4600506
+      value: -7.3500004
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 93bbe07bfa6934c46840ba7c83fbcb7e, type: 3}
       propertyPath: m_LocalPosition.y
@@ -17492,7 +17937,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 93bbe07bfa6934c46840ba7c83fbcb7e, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -1.4438379
+      value: 1.6370001
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 93bbe07bfa6934c46840ba7c83fbcb7e, type: 3}
       propertyPath: m_LocalRotation.w
@@ -17541,7 +17986,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4379681589437788326, guid: a8dfc941ebd23264189bb36c25a1862a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -4.34
+      value: -1.676
       objectReference: {fileID: 0}
     - target: {fileID: 4379681589437788326, guid: a8dfc941ebd23264189bb36c25a1862a, type: 3}
       propertyPath: m_LocalPosition.y
@@ -17553,7 +17998,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4379681589437788326, guid: a8dfc941ebd23264189bb36c25a1862a, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.7071068
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4379681589437788326, guid: a8dfc941ebd23264189bb36c25a1862a, type: 3}
       propertyPath: m_LocalRotation.x
@@ -17561,7 +18006,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4379681589437788326, guid: a8dfc941ebd23264189bb36c25a1862a, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.7071068
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4379681589437788326, guid: a8dfc941ebd23264189bb36c25a1862a, type: 3}
       propertyPath: m_LocalRotation.z
@@ -17573,7 +18018,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4379681589437788326, guid: a8dfc941ebd23264189bb36c25a1862a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -90
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4379681589437788326, guid: a8dfc941ebd23264189bb36c25a1862a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -17668,7 +18113,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1294215761}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 408612832}
+        m_TargetAssemblyTypeName: StepSelector, Assembly-CSharp
+        m_MethodName: ChangeToSpecificStepPanel
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1294215761
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17735,7 +18192,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1295343949}
   m_LocalRotation: {x: -0, y: -1, z: -0, w: 0}
-  m_LocalPosition: {x: 0, y: 0, z: -265}
+  m_LocalPosition: {x: 0, y: 0, z: -375}
   m_LocalScale: {x: 58.399998, y: 58.399998, z: 58.399998}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -17744,7 +18201,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 480, y: -506}
+  m_AnchoredPosition: {x: 88, y: -653}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!82 &1295343951
@@ -17989,7 +18446,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1299654372}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 408612832}
+        m_TargetAssemblyTypeName: StepSelector, Assembly-CSharp
+        m_MethodName: ToStartPage
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1299654372
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18181,7 +18650,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1314446342
 RectTransform:
   m_ObjectHideFlags: 0
@@ -18189,13 +18658,14 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1314446341}
-  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: 0, y: 0, z: -3503}
+  m_LocalRotation: {x: -0, y: -1, z: -0, w: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -3503.0002}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 131330403}
   - {fileID: 222315442}
+  - {fileID: 303520370}
   - {fileID: 173977222}
   - {fileID: 371636824}
   m_Father: {fileID: 408612831}
@@ -18203,7 +18673,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 950, y: 408}
+  m_AnchoredPosition: {x: 3079.5007, y: 409.00003}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1314446343
@@ -18890,7 +19360,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1354418181}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 408612832}
+        m_TargetAssemblyTypeName: StepSelector, Assembly-CSharp
+        m_MethodName: ToStartPage
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1354418181
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19012,7 +19494,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1357434713}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 408612832}
+        m_TargetAssemblyTypeName: StepSelector, Assembly-CSharp
+        m_MethodName: ChangeToSpecificStepPanel
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1357434713
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19269,7 +19763,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1368962767}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 408612832}
+        m_TargetAssemblyTypeName: StepSelector, Assembly-CSharp
+        m_MethodName: ToStartPage
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1368962767
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19391,7 +19897,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1378478892}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 408612832}
+        m_TargetAssemblyTypeName: StepSelector, Assembly-CSharp
+        m_MethodName: ToStartPage
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1378478892
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19636,7 +20154,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1412764525}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 408612832}
+        m_TargetAssemblyTypeName: StepSelector, Assembly-CSharp
+        m_MethodName: ChangeStepPanel
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1412764525
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19807,7 +20337,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 24.00003, y: 14.999985}
+  m_AnchoredPosition: {x: 24, y: 14.999985}
   m_SizeDelta: {x: 128.35, y: 78.28}
   m_Pivot: {x: 0, y: 0}
 --- !u!114 &1422218854
@@ -20040,7 +20570,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 93bbe07bfa6934c46840ba7c83fbcb7e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -5.4601107
+      value: -7.3500605
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 93bbe07bfa6934c46840ba7c83fbcb7e, type: 3}
       propertyPath: m_LocalPosition.y
@@ -20048,7 +20578,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 93bbe07bfa6934c46840ba7c83fbcb7e, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -1.4438419
+      value: 1.636996
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 93bbe07bfa6934c46840ba7c83fbcb7e, type: 3}
       propertyPath: m_LocalRotation.w
@@ -20489,7 +21019,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1433571503}
   m_LocalRotation: {x: -0, y: -1, z: -0, w: 0}
-  m_LocalPosition: {x: 0, y: 0, z: -235.99976}
+  m_LocalPosition: {x: 0, y: 0, z: -375}
   m_LocalScale: {x: 58.399998, y: 58.399998, z: 58.399998}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -20498,7 +21028,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 372.99997, y: -462}
+  m_AnchoredPosition: {x: 19.000244, y: -638}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!82 &1433571505
@@ -20947,7 +21477,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1469995247}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 408612832}
+        m_TargetAssemblyTypeName: StepSelector, Assembly-CSharp
+        m_MethodName: ChangeToSpecificStepPanel
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1469995247
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21204,7 +21746,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1495221492}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 408612832}
+        m_TargetAssemblyTypeName: StepSelector, Assembly-CSharp
+        m_MethodName: ChangeStepPanel
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1495221492
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21261,7 +21815,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1500350314
 RectTransform:
   m_ObjectHideFlags: 0
@@ -21269,8 +21823,8 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1500350313}
-  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: 0, y: 0, z: -3503}
+  m_LocalRotation: {x: -0, y: -1, z: -0, w: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -3503.0002}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -21284,7 +21838,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 950, y: 408}
+  m_AnchoredPosition: {x: 3079.5017, y: 409.00003}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1500350315
@@ -21631,7 +22185,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1544147862}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 408612832}
+        m_TargetAssemblyTypeName: StepSelector, Assembly-CSharp
+        m_MethodName: ToStartPage
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1544147862
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21888,7 +22454,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1549802333}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 408612832}
+        m_TargetAssemblyTypeName: StepSelector, Assembly-CSharp
+        m_MethodName: ChangeStepPanel
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1549802333
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22325,7 +22903,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1577040879}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 408612832}
+        m_TargetAssemblyTypeName: StepSelector, Assembly-CSharp
+        m_MethodName: ChangeToSpecificStepPanel
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1577040879
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22447,7 +23037,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1598791978}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 408612832}
+        m_TargetAssemblyTypeName: StepSelector, Assembly-CSharp
+        m_MethodName: ChangeStepPanel
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1598791978
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22569,7 +23171,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1612433139}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 408612832}
+        m_TargetAssemblyTypeName: StepSelector, Assembly-CSharp
+        m_MethodName: ChangeStepPanel
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1612433139
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23019,7 +23633,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1642871016
 RectTransform:
   m_ObjectHideFlags: 0
@@ -23027,7 +23641,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1642871015}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 26}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -23042,8 +23656,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -5, y: -8}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchoredPosition: {x: -617.5, y: -8.000061}
+  m_SizeDelta: {x: 3, y: 0.00012207031}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1642871017
 MonoBehaviour:
@@ -23232,7 +23846,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1659723297}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 408612832}
+        m_TargetAssemblyTypeName: StepSelector, Assembly-CSharp
+        m_MethodName: ChangeStepPanel
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1659723297
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24321,7 +24947,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1697603069}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 408612832}
+        m_TargetAssemblyTypeName: StepSelector, Assembly-CSharp
+        m_MethodName: ChangeToSpecificStepPanel
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1697603069
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24510,7 +25148,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 93bbe07bfa6934c46840ba7c83fbcb7e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -5.4600506
+      value: -7.3500004
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 93bbe07bfa6934c46840ba7c83fbcb7e, type: 3}
       propertyPath: m_LocalPosition.y
@@ -24518,7 +25156,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 93bbe07bfa6934c46840ba7c83fbcb7e, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -1.4438379
+      value: 1.6370001
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 93bbe07bfa6934c46840ba7c83fbcb7e, type: 3}
       propertyPath: m_LocalRotation.w
@@ -25034,7 +25672,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1739929157
 RectTransform:
   m_ObjectHideFlags: 0
@@ -25042,8 +25680,8 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1739929156}
-  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: 0, y: 0, z: -3503}
+  m_LocalRotation: {x: -0, y: -1, z: -0, w: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -3503.0002}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -25057,7 +25695,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 950, y: 408}
+  m_AnchoredPosition: {x: 3079.5027, y: 409.00003}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1739929158
@@ -26056,7 +26694,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1781859073
 RectTransform:
   m_ObjectHideFlags: 0
@@ -26064,8 +26702,8 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1781859072}
-  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: 0, y: 0, z: -3503}
+  m_LocalRotation: {x: -0, y: -1, z: -0, w: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -3503.0002}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -26079,8 +26717,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 950, y: 408}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 3079.5, y: 409.5}
+  m_SizeDelta: {x: -1, y: 0.9999695}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1781859074
 MonoBehaviour:
@@ -26158,7 +26796,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1801909705
 RectTransform:
   m_ObjectHideFlags: 0
@@ -26166,7 +26804,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1801909704}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 26}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -26181,8 +26819,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -5, y: -8}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchoredPosition: {x: -619.5, y: -8.000061}
+  m_SizeDelta: {x: -1, y: 0.00012207031}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1801909706
 MonoBehaviour:
@@ -26325,7 +26963,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1802880098}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 408612832}
+        m_TargetAssemblyTypeName: StepSelector, Assembly-CSharp
+        m_MethodName: ChangeStepPanel
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1802880098
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26548,7 +27198,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1821256893}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 408612832}
+        m_TargetAssemblyTypeName: StepSelector, Assembly-CSharp
+        m_MethodName: ToStartPage
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1821256893
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26670,7 +27332,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1829866635}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 408612832}
+        m_TargetAssemblyTypeName: StepSelector, Assembly-CSharp
+        m_MethodName: ToStartPage
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1829866635
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27199,7 +27873,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8ae165900fc664a46b610643c8c69b0e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -7.681
+      value: -6.196
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8ae165900fc664a46b610643c8c69b0e, type: 3}
       propertyPath: m_LocalPosition.y
@@ -27327,7 +28001,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1856694730}
   m_LocalRotation: {x: -0, y: 1, z: -0, w: 0}
-  m_LocalPosition: {x: 0, y: 0, z: 80.000244}
+  m_LocalPosition: {x: 0, y: 0, z: 61}
   m_LocalScale: {x: 58.4, y: 58.4, z: 58.4}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -27336,7 +28010,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 113, y: -492.00003}
+  m_AnchoredPosition: {x: -365, y: -1062}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!82 &1856694732
@@ -27730,7 +28404,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1864226854
 RectTransform:
   m_ObjectHideFlags: 0
@@ -27738,8 +28412,8 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1864226853}
-  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: 0, y: 0, z: -3503}
+  m_LocalRotation: {x: -0, y: -1, z: -0, w: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -3503.0002}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -27753,7 +28427,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 950, y: 408}
+  m_AnchoredPosition: {x: 3079.5027, y: 409.00003}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1864226855
@@ -28042,7 +28716,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1879660536}
   m_LocalRotation: {x: -0, y: -1, z: -0, w: 0}
-  m_LocalPosition: {x: 0, y: 0, z: -235.99976}
+  m_LocalPosition: {x: 0, y: 0, z: -374}
   m_LocalScale: {x: 58.399998, y: 58.399998, z: 58.399998}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -28051,7 +28725,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -221, y: -492.00003}
+  m_AnchoredPosition: {x: 16, y: -630}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!82 &1879660538
@@ -28803,7 +29477,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 93bbe07bfa6934c46840ba7c83fbcb7e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -5.4600506
+      value: -7.35
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 93bbe07bfa6934c46840ba7c83fbcb7e, type: 3}
       propertyPath: m_LocalPosition.y
@@ -28811,7 +29485,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 93bbe07bfa6934c46840ba7c83fbcb7e, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -1.4438379
+      value: 1.637
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 93bbe07bfa6934c46840ba7c83fbcb7e, type: 3}
       propertyPath: m_LocalRotation.w
@@ -29365,7 +30039,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1961768176
 RectTransform:
   m_ObjectHideFlags: 0
@@ -29373,8 +30047,8 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1961768175}
-  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: 0, y: 0, z: -3503}
+  m_LocalRotation: {x: -0, y: -1, z: -0, w: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -3503.0002}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -29388,7 +30062,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 950, y: 408}
+  m_AnchoredPosition: {x: 3079.5027, y: 409.00003}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1961768177
@@ -29624,7 +30298,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -272}
+  m_AnchoredPosition: {x: -325, y: -323}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!82 &1966755792
@@ -29869,7 +30543,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1969663999}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 408612832}
+        m_TargetAssemblyTypeName: StepSelector, Assembly-CSharp
+        m_MethodName: ChangeToSpecificStepPanel
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1969663999
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -29926,7 +30612,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1971516668
 RectTransform:
   m_ObjectHideFlags: 0
@@ -29934,7 +30620,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1971516667}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 26}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -29949,8 +30635,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -5, y: -8}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchoredPosition: {x: -619, y: -8.000061}
+  m_SizeDelta: {x: 0, y: 0.00012207031}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1971516669
 MonoBehaviour:
@@ -30028,7 +30714,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1984779362
 RectTransform:
   m_ObjectHideFlags: 0
@@ -30155,8 +30841,8 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1989258433}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -31.000114}
-  m_LocalScale: {x: 58.4, y: 58.4, z: 58.4}
+  m_LocalPosition: {x: 0, y: 0, z: -374}
+  m_LocalScale: {x: 58.39638, y: 58.39638, z: 58.39638}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1642871016}
@@ -30164,7 +30850,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -663.9001, y: 26.000053}
+  m_AnchoredPosition: {x: 302, y: -635}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!82 &1989258435
@@ -30344,7 +31030,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1999557446
 RectTransform:
   m_ObjectHideFlags: 0
@@ -30352,8 +31038,8 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1999557445}
-  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: 0, y: 0, z: -3503}
+  m_LocalRotation: {x: -0, y: -1, z: -0, w: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -3503.0002}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -30367,7 +31053,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 950, y: 408}
+  m_AnchoredPosition: {x: 3079.5027, y: 409.00003}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1999557447
@@ -30754,7 +31440,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2034949377
 RectTransform:
   m_ObjectHideFlags: 0
@@ -30762,8 +31448,8 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2034949376}
-  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: 0, y: 0, z: -3503}
+  m_LocalRotation: {x: -0, y: -1, z: -0, w: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -3503.0002}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -30777,7 +31463,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 950, y: 408}
+  m_AnchoredPosition: {x: 3079.5002, y: 409.00003}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2034949378
@@ -30921,7 +31607,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2044043546}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 408612832}
+        m_TargetAssemblyTypeName: StepSelector, Assembly-CSharp
+        m_MethodName: ChangeToSpecificStepPanel
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2044043546
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -31043,7 +31741,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2051736869}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 408612832}
+        m_TargetAssemblyTypeName: StepSelector, Assembly-CSharp
+        m_MethodName: ToStartPage
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2051736869
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -31100,7 +31810,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2063934006
 RectTransform:
   m_ObjectHideFlags: 0
@@ -31108,8 +31818,8 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2063934005}
-  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: 0, y: 0, z: -3503}
+  m_LocalRotation: {x: -0, y: -1, z: -0, w: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -3503.0002}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -31123,7 +31833,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 950, y: 408}
+  m_AnchoredPosition: {x: 3079.5002, y: 409.00003}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2063934007
@@ -31655,7 +32365,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 550342286b9735242bd6830994f94ed5, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -6.852698
+      value: -8.295
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 550342286b9735242bd6830994f94ed5, type: 3}
       propertyPath: m_LocalPosition.y
@@ -31945,7 +32655,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2135532124}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 408612832}
+        m_TargetAssemblyTypeName: StepSelector, Assembly-CSharp
+        m_MethodName: ChangeToSpecificStepPanel
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2135532124
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32299,31 +33021,35 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 3b22b0fdbd2f5a444baa04f87b23f0bb, type: 2}
     - target: {fileID: 4373445396485607470, guid: 80d21bad9d3ac734ea3571431c622075, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -4.939624
+      value: -7.422
       objectReference: {fileID: 0}
     - target: {fileID: 4373445396485607470, guid: 80d21bad9d3ac734ea3571431c622075, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -1.4369392
+      value: 1.944
       objectReference: {fileID: 0}
     - target: {fileID: 4373445396485607470, guid: 80d21bad9d3ac734ea3571431c622075, type: 3}
       propertyPath: m_LocalRotation.w
-      value: -0.6536616
+      value: 0.50056237
       objectReference: {fileID: 0}
     - target: {fileID: 4373445396485607470, guid: 80d21bad9d3ac734ea3571431c622075, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.653661
+      value: -0.50056237
       objectReference: {fileID: 0}
     - target: {fileID: 4373445396485607470, guid: 80d21bad9d3ac734ea3571431c622075, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.2696794
+      value: -0.499437
       objectReference: {fileID: 0}
     - target: {fileID: 4373445396485607470, guid: 80d21bad9d3ac734ea3571431c622075, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.26967916
+      value: -0.499437
       objectReference: {fileID: 0}
     - target: {fileID: 4373445396485607470, guid: 80d21bad9d3ac734ea3571431c622075, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 4373445396485607470, guid: 80d21bad9d3ac734ea3571431c622075, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 225.29
       objectReference: {fileID: 0}
     - target: {fileID: 4373445396485607470, guid: 80d21bad9d3ac734ea3571431c622075, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z

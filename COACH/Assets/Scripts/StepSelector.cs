@@ -1,10 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 public class StepSelector : MonoBehaviour
 {
     [SerializeField] private GameObject[] stepPanels;
+    [SerializeField] private List<GameObject> stepButtons = new List<GameObject>();
     [SerializeField] private GameObject[] stepToggles;
     [SerializeField] private List<GameObject> pinnedSteps = new List<GameObject>();
 
@@ -23,6 +25,15 @@ public class StepSelector : MonoBehaviour
         onGoingStep++;
         stepPanels[onGoingStep].SetActive(true);
         stepPanels[onGoingStep - 1].SetActive(false);                
+    }
+
+    public void ChangeToSpecificStepPanel()
+    {
+        GameObject ClickedButtonName = EventSystem.current.currentSelectedGameObject;
+        Debug.Log(ClickedButtonName);
+        onGoingStep = stepButtons.IndexOf(ClickedButtonName) + 1;
+        stepPanels[onGoingStep].SetActive(true);
+        stepPanels[0].SetActive(false);
     }
 
     public void StepSelect(int stepNumber)
@@ -67,4 +78,6 @@ public class StepSelector : MonoBehaviour
             }
         }
     }
+
+    
 }
