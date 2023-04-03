@@ -5,19 +5,17 @@ using UnityEngine.EventSystems;
 
 public class StepSelector : MonoBehaviour
 {
-    [SerializeField] private GameObject[] stepPanels;
+    [SerializeField] public GameObject[] stepPanels;
     [SerializeField] private List<GameObject> stepButtons = new List<GameObject>();
     [SerializeField] private GameObject[] stepToggles;
-    [SerializeField] private List<GameObject> pinnedSteps = new List<GameObject>();
+    [SerializeField] public List<GameObject> pinnedSteps = new List<GameObject>();
 
-    private bool toggleOn = false;
-    private int onGoingStep = 0;
+    
+    public int onGoingStep = 0;
 
     private void Start()
     {
         stepPanels[onGoingStep].SetActive(true);
-        
-        
     }
 
     public void ChangeStepPanel()
@@ -30,7 +28,6 @@ public class StepSelector : MonoBehaviour
     public void ChangeToSpecificStepPanel()
     {
         GameObject ClickedButtonName = EventSystem.current.currentSelectedGameObject;
-        Debug.Log(ClickedButtonName);
         onGoingStep = stepButtons.IndexOf(ClickedButtonName) + 1;
         stepPanels[onGoingStep].SetActive(true);
         stepPanels[0].SetActive(false);
@@ -43,34 +40,20 @@ public class StepSelector : MonoBehaviour
         stepPanels[onGoingStep - 1].SetActive(false);
     }
 
-    public void PinStep()
-    {        
-        if (!toggleOn)
-        {            
-            pinnedSteps.Add(stepPanels[onGoingStep]);
-            toggleOn = true;
-        }
-        else
-        {
-            pinnedSteps.Remove(stepPanels[onGoingStep]);
-            toggleOn = false;
-        }               
-    }
-
     public void ToStartPage()
     {
         int lastStep = onGoingStep;
-        Debug.Log(lastStep);
         onGoingStep = 0;
         
         stepPanels[onGoingStep].SetActive(true);
         CheckPinnedSteps();
+        if (!stepPanels[lastStep].GetComponent<StepPinning>().toggleOn) stepToggles[lastStep-1].SetActive(false);
         stepPanels[lastStep].SetActive(false);
     }
 
     private void CheckPinnedSteps()
     {
-        for (int item = 0; item < 18; item++)
+        for (int item = 1; item < 18; item++)
         {
             if (pinnedSteps.Contains(stepPanels[item]))
             {
