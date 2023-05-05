@@ -16,6 +16,8 @@ public class StepPinning : MonoBehaviour
         stepSelector = canvas.GetComponent<StepSelector>();
         stepPanels = stepSelector.stepPanels;
     }
+
+    // Adds step to lis tif toggled on and removes from it when toggled off
     public void PinStep()
     {
         onGoingStep = stepSelector.onGoingStep;

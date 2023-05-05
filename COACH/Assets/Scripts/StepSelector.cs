@@ -5,19 +5,27 @@ using UnityEngine.EventSystems;
 
 public class StepSelector : MonoBehaviour
 {
-    [SerializeField] public GameObject[] stepPanels;
-    [SerializeField] private List<GameObject> stepButtons = new List<GameObject>();
-    [SerializeField] private GameObject[] stepToggles;
-    [SerializeField] public List<GameObject> pinnedSteps = new List<GameObject>();
+    [Tooltip("List of all step panel gameobjects")]
+    public GameObject[] stepPanels;
 
-    
+    [Tooltip("List of all buttons in steps menu")]
+    [SerializeField] private List<GameObject> stepButtons = new List<GameObject>();
+
+    [Tooltip("List of all activatable step pin icons in steps menu")]
+    [SerializeField] private GameObject[] stepToggles;
+
+    [Tooltip("List of all steps that have been pinned")]
+    public List<GameObject> pinnedSteps = new List<GameObject>();
+
     public int onGoingStep = 0;
+
 
     private void Start()
     {
         stepPanels[onGoingStep].SetActive(true);
     }
 
+    // Change to next panel when clicking next
     public void ChangeStepPanel()
     {
         onGoingStep++;
@@ -25,6 +33,8 @@ public class StepSelector : MonoBehaviour
         stepPanels[onGoingStep - 1].SetActive(false);                
     }
 
+    // Change to specific panel when clicked from the steps menu
+    // based on the buttons index in the list
     public void ChangeToSpecificStepPanel()
     {
         GameObject ClickedButtonName = EventSystem.current.currentSelectedGameObject;
@@ -33,12 +43,6 @@ public class StepSelector : MonoBehaviour
         stepPanels[0].SetActive(false);
     }
 
-    public void StepSelect(int stepNumber)
-    {
-        onGoingStep = stepNumber;
-        stepPanels[onGoingStep].SetActive(true);
-        stepPanels[onGoingStep - 1].SetActive(false);
-    }
 
     public void ToStartPage()
     {
@@ -51,6 +55,8 @@ public class StepSelector : MonoBehaviour
         stepPanels[lastStep].SetActive(false);
     }
 
+    // Goes through a list and checks wheater any steps are pinned/unpinned
+    // and pins/unpins then in the steps menu
     private void CheckPinnedSteps()
     {
         for (int item = 1; item < 18; item++)
@@ -59,6 +65,7 @@ public class StepSelector : MonoBehaviour
             {
                 stepToggles[item - 1].SetActive(true);
             }
+            else stepToggles[item - 1].SetActive(false);
         }
     }
 
